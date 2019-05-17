@@ -2,10 +2,6 @@
 
 ![](grateful.gif)
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 92821519019fa92617938206cadbaf3ba7b330a7
 Please open grateful in the file tree, then run all commands from there!
 
 README
