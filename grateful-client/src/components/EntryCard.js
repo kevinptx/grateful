@@ -1,5 +1,4 @@
 import React from "react";
-import VoteForm from "./VoteForm";
 import { NavLink } from "react-router-dom";
 
 const EntryCard = props => {
