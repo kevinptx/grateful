@@ -14,7 +14,6 @@ const EntryShow = ({ entry }) => {
         Author - <strong>{entry.author}</strong>
       </p>
       <img className="entryImage" src={entry.img_url} alt="(no pic)" />
-      <p>Votes: {entry.upvotes}</p>
       <CommentForm entry_id={entry.id} />
       <h4>Comments</h4>
       <Comments comments={entry.comments} />

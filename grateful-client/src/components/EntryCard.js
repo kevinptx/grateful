@@ -17,8 +17,6 @@ const EntryCard = props => {
         {props.entry.author}
       </p>
       <img className="EntryImage" src={props.entry.img_url} alt="(no pic)" />
-      <p>Votes: {props.entry.upvotes}</p>
-      <VoteForm entry_id={props.entry.id} />
     </div>
   );
 };
