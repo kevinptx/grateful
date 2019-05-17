@@ -63,11 +63,13 @@ export const Home = () => {
       <h1>Enter with the password: "Thank you!"</h1>
       <p>Psalm 100:4-5 The Message (MSG)</p>
       <h3>
-        Vote on a grateful entry that you find especially motivating, or add a
-        new entry to list what you're grateful for.
-        <br />
-        This increases your awareness of the good things in life, benefiting
-        your mental health.
+        It's easy to let the challenges and disappointments of life get us down.
+        The cure for a downcast soul is gratefulness. Add a new entry to journal
+        what you're grateful for. This forces yourself to look for good things
+        in your life. Start with something as simple as, "I'm thankful that I
+        woke up this morning!" If you find a grateful entry that you like then
+        go ahead and vote for it. This increases your awareness of the good
+        things in life, benefiting mental health.
       </h3>
     </div>
   );
@@ -79,19 +81,17 @@ export const About = () => {
       <h3>About</h3>
       <p>
         This is a website to help you cultivate an attitude of thankfulness,
-        leading to better mental health.
-        <br />
-        Even if everything is not going as hoped in life, you can still find
-        reasons to be thankful. How about that cup of coffee you had this
-        morning?
-        <br />
-        How about the fact that you woke up today? You can start with that.
+        leading to better mental health. Even if everything is not going as
+        hoped in life, you can still find reasons to be thankful. How about that
+        cup of coffee you had this morning? How about the fact that you woke up
+        today? You can start with that.
       </p>
       <p>
         Vote from the index page, or click on an entry to see and add comments.
       </p>
       <p>
-        Click on 'New Entry' to add another reason for being grateful today! Limit your entry to 255 characters.
+        Click on 'New Entry' to add another reason for being grateful today!
+        Please limit your entry to 255 characters, keeping it short and sweet.
       </p>
     </div>
   );
