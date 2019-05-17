@@ -1,5 +1,8 @@
 # grateful
 
+![](grateful.gif)
+
+
 Please open grateful in the file tree, then run all commands from there!
 
 README
