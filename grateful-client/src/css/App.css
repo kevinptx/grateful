@@ -20,3 +20,27 @@ body {
   color: #666;
   background-color: #dadee838;
 }
+
+.EntryCard {
+  margin: 20px;
+  border-style: solid;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid rgb(75, 109, 223);
+  border-radius: 4px;
+  background-color: #c8eee0;
+  color: rgb(41, 83, 135);
+}
+
+.navbar {
+  padding: 50px 0px 50px 0px;
+}
+
+.EntryCard {
+  padding: 20px;
+}
