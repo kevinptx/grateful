@@ -1,11 +1,11 @@
 import React from "react";
-import Entries from "../containers/Entries";
-import Entry from "../containers/Entry";
-import EntryForm from "../containers/EntryForm";
-import NoMatch from "./NoMatch";
+import Entries from "./containers/Entries";
+import Entry from "./containers/Entry";
+import EntryForm from "./containers/EntryForm";
+import NoMatch from "./components/NoMatch";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Navbar, { Home, About } from "./Navbar";
-import "../css/App.css";
+import Navbar, { Home, About } from "./components/Navbar";
+import "./css/App.css";
 
 const App = () => {
   return (
