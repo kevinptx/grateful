@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { getEntries } from "../actions/entries";
-//import "../css/Entries.css";
 import EntryCard from "../components/EntryCard";
 
 class Entries extends Component {
