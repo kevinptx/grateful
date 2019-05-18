@@ -6,17 +6,17 @@ Please open grateful in the file tree, then run all commands from there!
 
 README
 
-##**Grateful**
+##Grateful
 
 An app for taking note of what you're thankful for in order to improve mental health and your general outlook on life. Click on the individual grateful entry to get to the show page and upvote the comments you like and downvote those you don't!
 
-##**API**
+##API
 New to the app is a JSON API backend. API endpoints render JSON. Entries are all available on the API, indexed or individual show. For example, to view the entries index, click on All Entries.
 
-##**Contributing**
+##Contributing
 Contributions are welcome, including any suggestions, bug reports, additions, and edits via https://github.com/kevinptx/grateful.
 
-##**License**
+##License
 MIT License
 
 Copyright (c) <2019> kevinptx
