@@ -66,10 +66,13 @@ export const Home = () => {
         It's easy to let the challenges and disappointments of life get us down.
         The cure for a downcast soul is gratefulness. Add a new entry to journal
         what you're grateful for. This forces yourself to look for good things
-        in your life. Start with something as simple as, "I'm thankful that I
-        woke up this morning!" If you find a grateful entry that you like then
-        go ahead and vote for it. This increases your awareness of the good
-        things in life, benefiting mental health.
+        in life to build mental resilience and bounce back from adversity. Start
+        with something as simple as, "I'm thankful that I woke up this morning!"
+        How about being thankful for something that did NOT happen? Start with
+        something like, "I'm thankful that I did NOT have a flat tire on the
+        road today!" If you find a grateful entry that you like, then go ahead
+        and vote for it. This increases your awareness of the good things in
+        life, benefiting mental health.
       </h3>
     </div>
   );

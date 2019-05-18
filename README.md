@@ -8,7 +8,7 @@ README
 
 Grateful
 
-An app for taking note of what you're thankful for in order to improve mental health and general outlook on life. Click on the individual grateful entry to get to the show page and upvote the comments you like and downvote those you don't!
+An app for taking note of what you're thankful for in order to improve mental health and your general outlook on life. Click on the individual grateful entry to get to the show page and upvote the comments you like and downvote those you don't!
 
 React/Redux Front-end Implementation with a Rails 5 API Backend
 React makes this a fast single page application. React Router ensures RESTful routing, and the grateful entries are persisted in a Rails 5 API backend, serialized and served to the front via JSON format.
