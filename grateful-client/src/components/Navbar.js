@@ -60,7 +60,7 @@ export const Home = () => {
   return (
     <div className="title">
       <h1>Enter with the password: "Thank you!"</h1>
-      <p>Psalm 100:4-5 The Message (MSG)</p>
+      <p>Psalm 100:4 The Message (MSG)</p>
 
       <h3>
         It's easy to let the challenges and disappointments of life get us down.
