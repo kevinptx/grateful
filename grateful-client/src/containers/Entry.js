@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { getEntry } from "../actions/entries";
-//import "../css/Entries.css";
 import EntryShow from "../components/EntryShow";
 
 class Entry extends Component {
