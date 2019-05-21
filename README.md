@@ -10,9 +10,12 @@ README
 
 An app for taking note of what you're thankful for in order to improve mental health and your general outlook on life. Click on the individual grateful entry to get to the show page and upvote the comments you like and downvote those you don't!
 
+#React/Redux Front-end Implementation with a Rails 5 API Backend
+React makes this app quick and efficient. React Router provides RESTful routing, and the entries are stored in a Rails 5 API backend with a PostgreSQL database. This is served to the frontend in JSON format via Rails serializers.
+
 # API
 
-New to the app is a JSON API backend. API endpoints render JSON. Entries are all available on the API, indexed or individual show. For example, to view the entries index, click on All Entries.
+This app uses a Rails API backend. API endpoints render JSON. Entries are all available on the API, indexed or individual show. For example, to view the entries index, click on All Entries.
 
 # Contributing
 
