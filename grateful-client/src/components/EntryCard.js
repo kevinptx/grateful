@@ -1,5 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import VoteForm from "./VoteForm"
+
 
 const EntryCard = props => {
   const url = `/entries/${props.entry.id}`;
@@ -16,6 +18,8 @@ const EntryCard = props => {
         {props.entry.author}
       </p>
       <img className="EntryImage" src={props.entry.img_url} alt="(no pic)" />
+      <VoteForm />
+
     </div>
   );
 };

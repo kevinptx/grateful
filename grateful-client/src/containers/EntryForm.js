@@ -3,12 +3,12 @@ import { connect } from "react-redux";
 import { updateEntryFormData } from "../actions/entryForm";
 import { createEntry, updateEntry, deleteEntry } from "../actions/entries";
 
-let EDIT_STATUS = false;
+let edit_status = false;
 
 class EntryForm extends Component {
   componentDidMount() {
     if (this.props.location.state) {
-      EDIT_STATUS = true;
+      edit_status = true;
       this.props.updateEntryFormData(
         this.props.location.state.current_entry.entry
       );
@@ -16,7 +16,7 @@ class EntryForm extends Component {
     }
   }
   componentWillUnmount() {
-    EDIT_STATUS = false;
+    edit_status = false;
   }
 
   handleOnChange = event => {
@@ -29,10 +29,10 @@ class EntryForm extends Component {
 
   handleOnSubmit = event => {
     event.preventDefault();
-    EDIT_STATUS
+    edit_status
       ? this.props.updateEntry(this.props.entryFormData, this.props.history)
       : this.props.createEntry(this.props.entryFormData, this.props.history);
-    EDIT_STATUS = false;
+    edit_status = false;
   };
 
   handleDelete = event => {
@@ -44,7 +44,7 @@ class EntryForm extends Component {
     const { content, author, img_url } = this.props.entryFormData;
     return (
       <div id="EntryForm" className="EntryCard EntryForm">
-        <h2>{EDIT_STATUS ? `Edit Entry Form` : "Add a New Entry!"}</h2>
+        <h2>{edit_status ? `Edit Entry Form` : "Add a New Entry!"}</h2>
         <form action="" onSubmit={this.handleOnSubmit}>
           <div>
             <label htmlFor="content">Content: </label>
@@ -78,11 +78,11 @@ class EntryForm extends Component {
           </div>
           <input
             type="submit"
-            value={EDIT_STATUS ? "Submit Changes" : "Add Entry"}
+            value={edit_status ? "Submit Changes" : "Add Entry"}
             className="create-entry-button"
           />
         </form>
-        {EDIT_STATUS ? (
+        {edit_status ? (
           <button className="delete-link" onClick={this.handleDelete}>
             Delete this Entry
           </button>

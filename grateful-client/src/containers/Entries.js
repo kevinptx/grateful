@@ -4,6 +4,7 @@ import { getEntries } from "../actions/entries";
 import EntryCard from "../components/EntryCard";
 
 class Entries extends Component {
+
   componentDidMount() {
     this.props.getEntries();
   }
