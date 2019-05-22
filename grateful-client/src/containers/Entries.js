@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { getEntries } from "../actions/entries";
 import EntryCard from "../components/EntryCard";
+import styled from 'styled-components';
+
 
 class Entries extends Component {
 
@@ -29,3 +31,4 @@ export default connect(
   mapStateToProps,
   { getEntries }
 )(Entries);
+

@@ -21,11 +21,6 @@ body {
   background-color: #dadee838;
 }
 
-.EntryCard {
-  margin: 20px;
-  border-style: solid;
-}
-
 input[type="text"] {
   width: 100%;
   padding: 12px 20px;
@@ -41,10 +36,12 @@ input[type="text"] {
   padding: 50px 0px 50px 0px;
 }
 
+
 .EntryCard {
   width: 300px;
-  border: dashed blue 1px;
+  border: solid blue 2px;
   padding: 20px;
+  margin: 20px;
 }
 .EntryCard img {
   max-height: 100%;

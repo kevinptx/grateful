@@ -19,7 +19,6 @@ const EntryCard = props => {
       </p>
       <img className="EntryImage" src={props.entry.img_url} alt="(no pic)" />
       <VoteForm />
-
     </div>
   );
 };
