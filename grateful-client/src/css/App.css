@@ -39,7 +39,7 @@ input[type="text"] {
 
 .EntryCard {
   width: 300px;
-  border: solid blue 2px;
+  border: solid blue 1px;
   padding: 20px;
   margin: 20px;
 }
