@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { updateEntryFormData } from "../actions/entryForm";
 import { createEntry, updateEntry, deleteEntry } from "../actions/entries";
+import styled from 'styled-components';
 
 let edit_status = false;
 
@@ -76,7 +77,7 @@ class EntryForm extends Component {
             />
             <br />
           </div>
-          <input
+          <StyledInput
             type="submit"
             value={edit_status ? "Submit Changes" : "Add Entry"}
             className="create-entry-button"
@@ -103,3 +104,9 @@ export default connect(
   mapStateToProps,
   { updateEntryFormData, createEntry, updateEntry, deleteEntry }
 )(EntryForm);
+
+const StyledInput = styled.input`
+  background-color: darkblue;
+  padding: 10px;
+  color: white;
+`;
