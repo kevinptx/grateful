@@ -2,7 +2,7 @@
 
 Please open grateful in the file tree, then run all commands from there!
 
-![Grateful Demo](https://res.cloudinary.com/dmbc3nfik/image/upload/v1558642729/grateful_q2t74b.gif)
+![Grateful Demo](https://res.cloudinary.com/dmbc3nfik/image/upload/v1558642729/grateful_q2t74b.gif?raw=true)
 
 README
 
