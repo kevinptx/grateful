@@ -43,7 +43,7 @@ export default VoteForm
 
 const Button = styled.button`
   background-color: ${props => props.primary ? "red" : "darkblue"};
-  padding: 10px;
+  padding: 5px;
   margin: 5px;
   color: white;
 `;

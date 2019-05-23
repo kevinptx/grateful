@@ -107,6 +107,6 @@ export default connect(
 
 const StyledInput = styled.input`
   background-color: darkblue;
-  padding: 10px;
+  padding: 5px;
   color: white;
 `;

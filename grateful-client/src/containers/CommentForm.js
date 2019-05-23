@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { updateCommentFormData } from "../actions/commentForm";
 import { createComment } from "../actions/comments";
+import styled from 'styled-components';
 
 class CommentForm extends Component {
   handleOnChange = event => {
@@ -39,7 +40,7 @@ class CommentForm extends Component {
           </div>
 
           <div>
-            <input
+            <StyledInput
               type="submit"
               className="submit-comment-button"
               value="Submit Comment"
@@ -61,3 +62,11 @@ export default connect(
   mapStateToProps,
   { updateCommentFormData, createComment }
 )(CommentForm);
+
+const StyledInput = styled.input`
+background-color: darkblue;
+padding: 5px;
+margin: 5px;
+color: white;
+
+`;
