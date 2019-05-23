@@ -12,7 +12,7 @@ An app for taking note of what you're thankful for in order to improve mental he
 
 # React/Redux Front-end Implementation with a Rails 5 API Backend
 
-React makes this app quick and efficient. React Router provides RESTful routing, and the entries are stored in a Rails 5 API backend with a PostgreSQL database. This is served to the frontend in JSON format via Rails serializers.
+React makes this app quick and efficient. React Router provides RESTful routing, and the entries are stored in a Rails 5 API backend with a PostgreSQL database. This is served to the frontend in JSON format via Rails serializers. Styling is minimal as this app is demonstrating understanding of React and Redux functionality. However, Styled Components are used in the VoteForm component.
 
 # API
 
