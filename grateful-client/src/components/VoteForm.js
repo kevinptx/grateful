@@ -3,25 +3,20 @@ import styled from 'styled-components';
 
 class VoteForm extends Component {
 
-  constructor() {
-    super();
-    this.state = {
+    state = {
       upvotes: 0,
       downvotes: 0
     }
-  }
 
   increment = () => {
-    const newUpvoteCount = this.state.upvotes + 1
     this.setState({
-      upvotes: newUpvoteCount
+      upvotes: this.state.upvotes + 1
     })
   }
 
   decrement = () => {
-    const newDownVoteCount = this.state.downvotes - 1
     this.setState({
-      downvotes: newDownVoteCount
+      downvotes: this.state.downvotes - 1
     })
   }
 
@@ -30,8 +25,8 @@ class VoteForm extends Component {
 
     return (
       <>
-        <Button color="upvote" onClick={this.increment}>Upvote: {this.state.upvotes}</Button>
-        <Button primary color="downvote" onClick={this.decrement}>Downvote: {this.state.downvotes}</Button>
+        <Button color="upvote" onClick={this.increment}>Upvote: {upvotes}</Button>
+        <Button primary color="downvote" onClick={this.decrement}>Downvote: {downvotes}</Button>
         <Div>Rating: {upvotes + downvotes}</Div>
       </>
     )
