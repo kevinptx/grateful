@@ -1,10 +1,11 @@
 # grateful
 
+#README
+
 Please open grateful in the file tree, then run all commands from there!
 
 ![Grateful Demo](grateful.gif)
 
-README
 
 # Grateful
 
